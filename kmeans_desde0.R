@@ -1,5 +1,5 @@
 
-# permitirá repetir el proceso de cálculo de centroides en la función principal
+# permitirá repetir el proceso de cálculo de centroides y asignación a clúster en la función principal
 
 calculo_con_centroides <- function(datos, indices, k, input) {
     
