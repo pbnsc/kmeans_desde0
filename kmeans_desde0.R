@@ -1,3 +1,4 @@
+library(ggplot2)
 
 # permitirá repetir el proceso de cálculo de centroides y asignación a clúster en la función principal
 
