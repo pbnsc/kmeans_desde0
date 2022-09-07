@@ -54,12 +54,10 @@ kmeans <- function(datos, k, grafica = F) {
     
     # repetición del proceso hasta convergencia
     x <- T
-    i <- 0
     tries <- 0
     
     while (x == T) {
         
-        i <- i + 1
         old_res <- res
         res <- calculo_con_centroides(datos, indices = k_casos, k, input = res)
         
